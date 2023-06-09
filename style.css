@@ -591,9 +591,9 @@ nav {
     width: 310px;
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: rgba(33, 13, 150, 0.873);
-    text-shadow: 1px 1px 2px black;
-    color: #ffffff;
+    /* background-color: rgba(33, 13, 150, 0.873); */
+    /* text-shadow: 1px 1px 2px black; */
+    color: #000000;
 
 }
 
