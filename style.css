@@ -372,13 +372,13 @@ nav {
 }
 
 .offer1 {
-    margin-top: 68px;
+    margin-top: 17vw;
     position: relative;
     z-index: 3;
     display: flex;
     justify-content: center;
     background-color: #4d4d4d76;
-    font-size: 18px;
+    font-size: 6.5vw;
 
 }
 
@@ -395,7 +395,7 @@ nav {
 }
 
 .line_black {
-    margin-top: 90px;
+    margin-top: 28vw;
     height: 3px;
     display: flex;
     justify-content: center;
@@ -448,7 +448,7 @@ nav {
 }
 
 .btn_mob1 {
-    width: 300px;
+    width: 80vw;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -464,7 +464,7 @@ nav {
 }
 
 .btn_mob2 {
-    width: 300px;
+    width: 80vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -480,7 +480,7 @@ nav {
 
 /* 2 page  */
 .img2 {
-    margin-top: 13px;
+    margin-top: 5vw;
     display: flex;
     justify-content: center;
 }
@@ -508,7 +508,7 @@ nav {
 }
 
 .line2 {
-    margin-top: 10px;
+    margin-top: 4vw;
     display: flex;
     justify-content: center;
 }
@@ -705,7 +705,7 @@ nav {
     margin-top: 3vw;
     font-family: initial;
     font-size: 15px;
-    width: 310px;
+    width: 80vw;
     padding: 5px 10px;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
@@ -1025,14 +1025,52 @@ summary:after {
 }
 
 /* responsive */
-@media (min-width: 378px) and (max-width: 554px) {
+@media (min-width: 300px) and (max-width: 554px) {
     .offer1 {
         margin-top: 17vw;
-        font-size: 5vw;
+        font-size: 6.5vw;
+    }
+
+    .txt_green {
+        width: 70vw;
+        font-size: 4vw;
+        padding: 2vw 6vw;
+    }
+
+    .txt_red {
+        width: 70vw;
+        font-size: 4vw;
+        padding: 2vw 6vw;
+    }
+
+    .title2 {
+        margin-top: 3vw;
+    }
+
+    .title3_txt {
+        font-size: 5.5vw;
+        margin-top: 3vw;
+        ;
+    }
+
+    .title2_txt {
+        font-size: 4.7vw;
+        width: 80vw;
+    }
+
+    .title4_txt {
+        font-size: 4.8vw;
+        width: 80vw;
+        padding: 2vw 5vw;
+        border: 0.5vw dashed;
     }
 
     .line_black {
         margin-top: 28vw;
+    }
+
+    .line_top {
+        margin-top: -5vw;
     }
 
     .line_top2 {
@@ -1041,13 +1079,10 @@ summary:after {
 
     /* курс позволиты */
     .offer2 {
+        margin-top: 10vw;
         font-size: 4.5vw;
     }
 
-    .title3_txt {
-        margin-top: 1vw;
-        ;
-    }
 }
 
 
