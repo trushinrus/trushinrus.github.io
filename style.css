@@ -383,7 +383,7 @@ nav {
 }
 
 .p_1page {
-    width: 300px;
+    width: 80vw;
     text-align: center;
     color: #ffffff;
     text-shadow: 1px 1px 2px black;
@@ -404,20 +404,21 @@ nav {
 }
 
 .home_txt {
-    margin-top: 10px;
+    margin-top: 4vw;
     display: flex;
     justify-content: center;
 }
 
 .text_title1 {
     text-align: center;
-    font-size: 25px;
-    width: 300px;
+    font-size: 6.5vw;
+    width: 80vw;
     color: #000000;
+    font-weight: bold;
 }
 
 .home_txt2 {
-    margin-top: 10px;
+    margin-top: 6vw;
     display: flex;
     justify-content: center;
 }
@@ -426,8 +427,8 @@ nav {
     font-family: initial;
     font-style: oblique;
     text-align: center;
-    font-size: 19px;
-    width: 300px;
+    font-size: 5.8vw;
+    width: 86vw;
     color: #000000;
 }
 
@@ -439,11 +440,11 @@ nav {
 
 /* button */
 .btn_position_mob {
-    margin-top: 10px;
+    margin-top: 5vw;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 3vw;
 }
 
 .btn_mob1 {
@@ -519,7 +520,7 @@ nav {
 }
 
 .green {
-    margin-top: 5px;
+    margin-top: 5vw;
     display: flex;
     justify-content: center;
 }
@@ -535,7 +536,7 @@ nav {
 }
 
 .red {
-    margin-top: 5px;
+    margin-top: 3vw;
     display: flex;
     justify-content: center;
 }
@@ -577,7 +578,7 @@ nav {
 
 .title3 {
     font-style: bold;
-    margin-top: 40px;
+    margin-top: 10vw;
     display: flex;
     justify-content: center;
     font-weight: bold;
